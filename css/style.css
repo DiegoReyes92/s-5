@@ -1,0 +1,52 @@
+
+*{
+  font-family: 'Signika Negative', sans-serif;
+  }
+
+ svg{
+  position: absolute;
+  width: 60%;
+  left: 20vw; 
+  top: -10vh;
+  z-index: -50;
+} 
+
+.contenedor{
+  height: 95vh;
+  background: url(../img/dog.jpg); 
+  background-position: center;
+   background-repeat: no-repeat; 
+  background-size: cover; 
+}
+
+#elClima{
+  font-size: 1rem;
+}
+.containerChiste{
+  display: flex;
+  background: rgb(255, 255, 255);
+  flex-flow: column wrap;
+  align-items: center;
+  justify-content: space-around;
+  width: auto;
+  margin: 15%;
+  margin-top: 8%;
+  height: 50%;
+  border-radius:  20px;
+}
+.containerChiste h1{
+  font-size: 2rem;
+}
+.containerChiste p{
+  text-align: center;
+  font-size: 1.2rem;
+  padding: 5px;
+}
+.containerChiste button{
+  background:#bea92f;
+  font-size: 1.5rem;
+  padding: 1rem;
+  color: rgb(0, 0, 0);
+  border-radius:  70px;
+}
+
